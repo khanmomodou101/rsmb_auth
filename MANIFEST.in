@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include rsmb_auth *.css
+recursive-include rsmb_auth *.csv
+recursive-include rsmb_auth *.html
+recursive-include rsmb_auth *.ico
+recursive-include rsmb_auth *.js
+recursive-include rsmb_auth *.json
+recursive-include rsmb_auth *.md
+recursive-include rsmb_auth *.png
+recursive-include rsmb_auth *.py
+recursive-include rsmb_auth *.svg
+recursive-include rsmb_auth *.txt
+recursive-exclude rsmb_auth *.pyc
